@@ -19,6 +19,7 @@
         <dependency>
             <groupId>com.xue</groupId>
             <artifactId>codetest-service</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
 
         <dependency>
