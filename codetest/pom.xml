@@ -15,6 +15,44 @@
         <module>codetest-jdbc</module>
     </modules>
 
+    <properties>
+        <codetest.version>1.0-SNAPSHOT</codetest.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+
+            <!-- 项目版本 -->
+            <dependency>
+                <groupId>com.xue</groupId>
+                <artifactId>codetest-api</artifactId>
+                <version>${codetest.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.xue</groupId>
+                <artifactId>codetest-impl</artifactId>
+                <version>${codetest.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.xue</groupId>
+                <artifactId>codetest-service</artifactId>
+                <version>${codetest.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.xue</groupId>
+                <artifactId>codetest-jdbc</artifactId>
+                <version>${codetest.version}</version>
+            </dependency>
+
+
+
+        </dependencies>
+    </dependencyManagement>
+
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
