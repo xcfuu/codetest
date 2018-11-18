@@ -21,10 +21,6 @@
             <artifactId>codetest-service</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.xue</groupId>
-            <artifactId>codetest-impl</artifactId>
-        </dependency>
-        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
